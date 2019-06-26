@@ -1,0 +1,77 @@
+/* IDs */
+#banner {
+	size: 300px;
+}
+
+#profile {
+	width: 300px;
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+	border-radius: 50%;
+}
+
+/* Classes */
+
+.main {
+	line-height: 1.25;
+	margin: auto;
+	width: 70%;
+}
+
+.arrow {
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 5px;
+	width: 100px;
+
+}
+
+.img-gen {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+
+
+/* Universal Selectors */
+
+header {
+	background-color: #2f4f4f;
+	height: 720px;
+	color: white;
+	width: 100%;
+	padding-top: 100px;
+}
+
+header h1 {
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-weight: normal;
+	font-family: Rockwell;
+}
+
+nav ul li {
+	font-size: 1.2em;
+	display: inline;
+	color: #fff
+	padding: 0 12px;
+	border: 2px solid #000;
+}
+
+q {
+	font-style: italic;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+/* Sudo */
+a:link {
+	text-decoration: none;
+}
+
